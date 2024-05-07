@@ -1,4 +1,4 @@
-import 'package:daniel_portafolio/pages/filedependency.dart';
+import 'package:daniel_portafolio/pages/custom_app_menu.dart';
 import 'package:flutter/material.dart';
 
 
@@ -13,7 +13,7 @@ class Portafolio extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           
-          FileDependency(),
+          CustomAppMenu(),
          
           Spacer(),
           FittedBox(
