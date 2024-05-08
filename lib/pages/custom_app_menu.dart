@@ -61,17 +61,17 @@ class _MobileMenu extends StatelessWidget {
       child: Column(
             children: [
               CustomFlatButtom(
-                text: 'dependencies:', 
+                text: 'Projects', 
                 color: const Color.fromARGB(255, 250, 92, 144), 
                 onPressed: ()=> Navigator.pushNamed(context, '404') ),
                 const SizedBox(height: 10),
               CustomFlatButtom(
-                text: 'dependencies:', 
+                text: 'dependencies used', 
                 color: const Color.fromARGB(255, 250, 92, 144), 
                 onPressed: ()=> Navigator.pushNamed(context, '404') ),
                 const SizedBox(height: 10),
               CustomFlatButtom(
-                text: 'dependencies:', 
+                text: 'Data Analylics', 
                 color: const Color.fromARGB(255, 250, 92, 144), 
                 onPressed: ()=> Navigator.pushNamed(context, '404') ),
             ],    
